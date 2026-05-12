@@ -1,6 +1,26 @@
 # LuxeOps — AI-Powered Hotel Operations Platform
 ## With Groq LLM Chatbot (LuxeOpsChat)
 
+## Project Idea
+LuxeOps is a hotel management system developed for a Computer Science course project. The system combines C++ hotel management logic with a modern AI-powered graphical interface.
+
+The goal of the project is to simplify hotel operations such as guest management, room tracking, staff organization, and operational analytics.
+
+## Features
+- Guest management system
+- Room management dashboard
+- Staff management
+- Check-in and check-out operations
+- AI-powered hotel assistant using Groq API
+- AI operational insights
+- Luxury modern GUI
+- Persistent local storage
+
+## How To Run
+1. Download the project files
+2. Open the project folder
+3. Open `index.html` in a browser
+
 ## How to Compile (Windows MinGW g++)
 
 ### Step 1 — Install libcurl (one time only)
@@ -19,6 +39,8 @@ g++ -std=c++17 -Wall -I src -o LuxeOps.exe src/*.cpp -lcurl -lws2_32 -lwldap32 -
 ```
 LuxeOps.exe
 ```
+
+
 
 ## Chatbot (Option 5 from main menu)
 - Powered by Groq API + Llama 3.3 70B
